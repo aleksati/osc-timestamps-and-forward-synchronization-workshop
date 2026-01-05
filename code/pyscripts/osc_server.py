@@ -10,10 +10,10 @@ serverPort = 8000
 audio = "./tick.wav"
 
 # handler for incoming /tick OSC messages
-def pyHandler(address, args):
+def pyHandler(address, *args):
     print(f'{address} {args}')
     
-    if args == "tick":
+    if args[0] == "tick":
         # If a tick message is recevied, play audio
         playsound(audio)
 
