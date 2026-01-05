@@ -10,8 +10,10 @@ In this workshop, we will learn about the OSC protocol and how it can be used to
 
   ```
   pip install playsound==1.2.2
-  pip install python-osc
+  pip install python-osc==1.9.3
   ```
+
+I've tested the code on playsound v.1.2.2 and python-osc v.1.9.3. Playsound is trickier with the latest versions, but python-osc still seems to work fine (as of January 2026).
 
 - [Pure Data Vanilla 0.54](https://puredata.info/downloads/pure-data)
   - I recommend that you install the 32-bit version of Pure Data vanilla (if possible) for mrpeach to work best.
